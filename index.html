@@ -20,17 +20,13 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
     />
-    <!-- Internal css -->
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-    </style>
+    <!-- External css -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- NavBar Part  start-->
     <header class="container">
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav class="navbar navbar-expand-lg fixed-top bg-light">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="images/logo.png" alt="" />
@@ -75,7 +71,7 @@
           data-bs-ride="carousel"
         >
           <div class="carousel-inner">
-            <div class="carousel-item active border rounded bg-info p-5">
+            <div class="carousel-item active border rounded panda-bg-color p-5">
               <div class="row">
                 <div class="col-lg-7 d-flex align-items-center">
                   <div>
@@ -85,7 +81,7 @@
                       to waste time in front of funky
                     </p>
                     <h2>$1200</h2>
-                    <div class="btn btn-warning">Buy Now</div>
+                    <div class="btn panda-btn-buy-now">Buy Now</div>
                   </div>
                 </div>
                 <div class="col-lg-5">
@@ -97,7 +93,7 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item active border rounded bg-info p-5">
+            <div class="carousel-item active border rounded panda-bg-color p-5">
               <div class="row">
                 <div class="col-lg-7 d-flex align-items-center">
                   <div>
@@ -107,7 +103,7 @@
                       want to waste time in front of funky
                     </p>
                     <h2>$420</h2>
-                    <div class="btn btn-warning">Buy Now</div>
+                    <div class="btn panda-btn-buy-now">Buy Now</div>
                   </div>
                 </div>
                 <div class="col-lg-5">
@@ -119,7 +115,7 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item active border rounded bg-info p-5">
+            <div class="carousel-item active border rounded panda-bg-color p-5">
               <div class="row">
                 <div class="col-lg-7 d-flex align-items-center">
                   <div>
@@ -129,7 +125,7 @@
                       just want to waste time in front of funky
                     </p>
                     <h2>$600</h2>
-                    <div class="btn btn-warning">Buy Now</div>
+                    <div class="btn panda-btn-buy-now">Buy Now</div>
                   </div>
                 </div>
                 <div class="col-lg-5">
@@ -167,8 +163,8 @@
     <main>
       <!-- Categories start -->
       <section>
-        <div class="container text-center my-5">
-          <div class="row g-2">
+        <div class="container text-center my-5 catagories">
+          <div class="row g-4">
             <div class="col-lg-4 col-md-6 col-sm-12">
               <div
                 class="p-3 border bg-warning rounded-3 d-flex align-items-center justify-content-around"
@@ -224,7 +220,7 @@
                 </p>
               </div>
               <div class="m-3">
-                <div class="btn btn-warning">Buy Now</div>
+                <div class="btn panda-btn-buy-now">Buy Now</div>
               </div>
             </div>
           </div>
@@ -244,7 +240,7 @@
                 </p>
               </div>
               <div class="m-3">
-                <div class="btn btn-warning">Buy Now</div>
+                <div class="btn panda-btn-buy-now">Buy Now</div>
               </div>
             </div>
           </div>
@@ -265,7 +261,7 @@
                 </p>
               </div>
               <div class="m-3">
-                <div class="btn btn-warning">Buy Now</div>
+                <div class="btn panda-btn-buy-now">Buy Now</div>
               </div>
             </div>
           </div>
@@ -289,7 +285,7 @@
                 </p>
               </div>
               <div class="m-3">
-                <div class="btn btn-warning">Buy Now</div>
+                <div class="btn panda-btn-buy-now">Buy Now</div>
               </div>
             </div>
           </div>
@@ -305,7 +301,7 @@
                 </p>
               </div>
               <div class="m-3">
-                <div class="btn btn-warning">Buy Now</div>
+                <div class="btn panda-btn-buy-now">Buy Now</div>
               </div>
             </div>
           </div>
@@ -322,7 +318,7 @@
                 </p>
               </div>
               <div class="m-3">
-                <div class="btn btn-warning">Buy Now</div>
+                <div class="btn panda-btn-buy-now">Buy Now</div>
               </div>
             </div>
           </div>
@@ -330,7 +326,7 @@
       </section>
       <!-- Backpack section end -->
       <!-- Watch section start -->
-      <section class="container my-5" id="watch">
+      <section class="container my-5 Watch" id="watch">
         <h2>Watch</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
@@ -350,7 +346,7 @@
                 </p>
               </div>
               <div class="m-3">
-                <div class="btn btn-warning">Buy Now</div>
+                <div class="btn panda-btn-buy-now">Buy Now</div>
               </div>
             </div>
           </div>
@@ -370,7 +366,7 @@
                 </p>
               </div>
               <div class="m-3">
-                <div class="btn btn-warning">Buy Now</div>
+                <div class="btn panda-btn-buy-now">Buy Now</div>
               </div>
             </div>
           </div>
@@ -391,7 +387,7 @@
                 </p>
               </div>
               <div class="m-3">
-                <div class="btn btn-warning">Buy Now</div>
+                <div class="btn panda-btn-buy-now">Buy Now</div>
               </div>
             </div>
           </div>
@@ -403,7 +399,7 @@
       <section
         id="subscribe"
         style="height: 300px"
-        class="container rounded-3 bg-info d-flex justify-content-center align-items-center"
+        class="container rounded-3 panda-bg-color d-flex justify-content-center align-items-center"
       >
         <div>
           <h2>LET'S STAY IN TOUCH</h2>
@@ -417,7 +413,7 @@
                 aria-describedby="emailHelp"
               />
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn panda-btn-buy-now">Submit</button>
           </form>
         </div>
       </section>
